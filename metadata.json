@@ -1,0 +1,6 @@
+{
+  "name": "Prompt By Niks",
+  "description": "Premium prompt optimizer, analyzer, and generator with Feminine Neumorphic 4D interface designed by Gara.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

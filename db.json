@@ -1,0 +1,53 @@
+{
+  "adminProfile": null,
+  "systemState": {
+    "installation_completed": false,
+    "profile_completed": false,
+    "api_config_completed": false,
+    "database_connected": false,
+    "setup_completed": false,
+    "owner_id": null
+  },
+  "users": [],
+  "profiles": [],
+  "tokens": [],
+  "credits": [],
+  "promptAnalysis": [],
+  "masterPrompts": [],
+  "apiSettings": {
+    "geminiApiKey": "",
+    "supabaseUrl": "",
+    "supabaseAnonKey": "",
+    "supabaseServiceRoleKey": "",
+    "supabaseConnectionString": "",
+    "midjourneyKey": "",
+    "stabilityKey": "",
+    "runwayKey": "",
+    "lumaKey": "",
+    "klingKey": "",
+    "leonardoKey": "",
+    "videoSizeLimitMB": 100
+  },
+  "announcements": [],
+  "activityLogs": [
+    {
+      "id": "act-1",
+      "action": "SYSTEM_START",
+      "details": "Sistem utama Prompt By Niks berhasil dijalankan.",
+      "timestamp": "2026-06-17T11:03:15.323Z"
+    }
+  ],
+  "systemLogs": [
+    {
+      "id": "sys-1",
+      "level": "info",
+      "service": "Database",
+      "message": "Database JSON lokal berhasil diinisialisasi.",
+      "timestamp": "2026-06-17T11:03:15.323Z"
+    }
+  ],
+  "aiProviders": [],
+  "videoUploads": [],
+  "imageReferences": [],
+  "videoReferences": []
+}
