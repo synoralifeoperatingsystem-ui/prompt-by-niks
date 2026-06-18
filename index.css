@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-feminine-bg: #FAF3F4;
+  --color-feminine-panel: #FFFDFD;
+  --color-feminine-rose: #FBE6E8;
+  --color-feminine-accent: #E17789;
+  --color-feminine-accent-hover: #CC5C6F;
+  --color-feminine-dark: #413032;
+  --color-feminine-lilac: #F2E3F7;
+  --color-feminine-shadow-dark: #E9D2D4;
+}
+
+/* Custom Neumorphism classes for 4D tactile experience */
+.neu-emboss {
+  background: #FAF3F4;
+  box-shadow: 10px 10px 20px #e1dadb, -10px -10px 20px #ffffff;
+}
+
+.neu-deboss {
+  background: #FAF3F4;
+  box-shadow: inset 10px 10px 20px #e1dadb, inset -10px -10px 20px #ffffff;
+}
+
+.neu-panel-emboss {
+  background: #FFFDFD;
+  box-shadow: 8px 8px 16px #eae2e3, -8px -8px 16px #ffffff;
+}
+
+.neu-panel-deboss {
+  background: #FFFDFD;
+  box-shadow: inset 6px 6px 12px #eae2e3, inset -6px -6px 12px #ffffff;
+}
+
+.neu-btn-rose-emboss {
+  background: #FBE6E8;
+  box-shadow: 5px 5px 10px #dfccd0, -5px -5px 10px #ffffff;
+}
+
+.neu-btn-rose-deboss {
+  background: #FBE6E8;
+  box-shadow: inset 4px 4px 8px #dfccd0, inset -4px -4px 8px #ffffff;
+}
+
+.neu-btn-white-emboss {
+  background: #ffffff;
+  box-shadow: 4px 4px 8px #e5dcdd, -4px -4px 8px #ffffff;
+}
+
+.neu-btn-white-deboss {
+  background: #ffffff;
+  box-shadow: inset 3px 3px 6px #e5dcdd, inset -3px -3px 6px #ffffff;
+}
+
+/* Glassmorphism subtle overlay */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Liquid shape borders for organic look */
+.organic-shape-1 {
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.organic-shape-2 {
+  border-radius: 50% 50% 30% 70% / 50% 60% 40% 50%;
+}
+
+.organic-shape-3 {
+  border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
+}
+
+/* Custom fade effects and selections */
+::selection {
+  background-color: #FBE6E8;
+  color: #413032;
+}
+
+body {
+  background-color: #FAF3F4;
+  color: #413032;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar matching neumorphic pink theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF3F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E9D2D4;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E17789;
+}
